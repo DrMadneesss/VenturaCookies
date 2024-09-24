@@ -1,0 +1,31 @@
+html { scroll-behavior: smooth; }
+
+.product-card {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.card{
+    margin-top:15px;
+}
